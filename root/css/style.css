@@ -1,0 +1,23 @@
+/* Root */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --amarelo: #FFD23F;
+    --cinza: #878787;
+    --preto: #000000;
+  }
+
+/* Estilo geral */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cinza);
+    color: var(--preto);
+}
