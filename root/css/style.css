@@ -14,10 +14,76 @@
     --preto: #000000;
   }
 
-/* Estilo geral */
+/*-----------------------------------------------------------------------------------*/
 
+/* Estilos básicos para os ícones de navegação */
+.navegacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navegacao a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    background-color: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #FFD23F;
+    text-decoration: none;
+}
+
+.navegacao a:hover {
+    background-color: #FFFFFF;
+}
+
+.crowdfunding {
+    margin-top: 20px;
+}
+
+.active {
+    font-weight: bold;
+    background-color: #878787;
+    color: #FFD23F;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Estilo geral */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--cinza);
     color: var(--preto);
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+.botoes-carrossel {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Ajuste para criar botões circulares */
+.botoes-carrossel button {
+    background-color: var(--amarelo);
+    color: var(--preto);
+    border: none;
+    width: 15px; /* Definindo largura e altura iguais para círculo */
+    height: 15px;
+    border-radius: 50%; /* Tornando os botões circulares */
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 0; /* Removendo o padding para evitar mudança de forma */
+}
+
+/* Estilo para o botão selecionado */
+.botoes-carrossel button.selecionado {
+    background-color: var(--preto); /* Cor de fundo diferente para indicar seleção */
+    border: 2px solid var(--amarelo); /* Borda para destacar o botão */
 }

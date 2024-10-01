@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="root/js/script.js" defer></script>
     <link rel="stylesheet" href="root/css/style.css">
     <title>Xadrez Urbano</title>
 </head>
@@ -12,24 +13,100 @@
         <!-- Menu de navegação -->
         <nav>
             <div id="nav-links">
-                <a href="index.html"><img src="#" alt="Logotipo do projeto"></a>
-                <a href="root/html/xadrezurbano.html">Xadrez Urbano</a>
-                <a href="root/html/sobre.html">Sobre</a>
+                <a href="#home"><img src="#" alt="Logotipo do projeto"></a>
+                <a href="#pecas">Xadrez Urbano</a>
+                <a href="#contato">Sobre</a>
             </div>
         </nav>
     </header>
     <main>
-        <section>
+    <!-- PÁGINA 01 -->
+        <section id="home" class="paginainicial" >
             <h1>Xadrez Urbano</h1>
             <h2>Olá, seja bem-vindo a página oficial do jogo Xadrez Urbano</h2>
             <p>Este projeto tem como missão conscientizar a população sobre a importância de seguir as regras de trânsito
             para melhorar a fluidez e a segurança nas cidades. Inspirado no xadrez, ele convida motoristas, passageiros
             e pedestres a refletirem sobre como atitudes no trânsito podem transformar o dia a dia urbano, tornando-o mais
             seguro e eficiente.</p>
-            <button><a href="root/html/xadrezurbano.html">Conheça o jogo ➔</a></button>
+            <button><a href="#pecas">Conheça o jogo ➔</a></button>
+            <img src="#" alt="Imagem de um tabuleiro de xadrez com peças de trânsito">
         </section>
-        <img src="#" alt="Imagem de um tabuleiro de xadrez com peças de trânsito">
     </main>
+
+    <!-- PÁGINA 02 -->
+        <!-- Peças do Xadrez Urbano -->
+        <section id="pecas" class="paginapecas">
+            <ul>
+                <li>
+                    <h2>Prefeitura</h2>
+                    <h3>Rei</h3>
+                    <p>A prefeitura, que administra a cidade, é equivalente ao Rei no xadrez. Assim como o Rei, que tem movimentação limitada, mas é vital para o jogo, a prefeitura tem uma função central nas decisões sobre a cidade e sua infraestrutura, sendo o eixo principal das políticas de mobilidade urbana.</p>
+                    <img src="root/images/imagem_prefeitura.jpg" alt="Imagem da Prefeitura">
+                </li>
+                <li>
+                    <h2>Coreto</h2>
+                    <h3>Rainha</h3>
+                    <p>O coreto da praça representa a Rainha no tabuleiro. Sendo o ponto central de convivência social, o coreto reflete a versatilidade da Rainha, que se movimenta livremente em todas as direções. Ele é um local de convergência, onde diferentes rotas e atividades sociais se encontram.</p>
+                    <img src="root/images/imagem_coreto.jpg" alt="Imagem do Coreto">
+                </li>
+                <li>
+                    <h2>Carros</h2>
+                    <h3>Peões</h3>
+                    <p>No contexto urbano, os carros representam os peões. Assim como os peões no xadrez, os carros são numerosos e dominam as ruas das cidades. Sua movimentação é limitada, refletindo a lentidão e dificuldade de manobra, especialmente em áreas congestionadas.</p>
+                    <img src="root/images/imagem_carros.jpg" alt="Imagem dos Carros">
+                </li>
+                <li>
+                    <h2>Motocicletas</h2>
+                    <h3>Cavalos</h3>
+                    <p>As motocicletas são comparadas aos cavalos no xadrez, pois têm uma movimentação ágil e flexível. Assim como os cavalos se movem em “L” no tabuleiro, as motos podem manobrar rapidamente no trânsito, acessando espaços onde outros veículos não conseguem passar.</p>
+                    <img src="root/images/imagem_motocicletas.jpg" alt="Imagem das Motocicletas">
+                </li>
+                <li>
+                    <h2>Ônibus</h2>
+                    <h3>Torres</h3>
+                    <p>Os ônibus correspondem às torres, pois ambos percorrem grandes distâncias em linhas retas. Assim como as torres no xadrez, que têm uma trajetória definida, os ônibus seguem rotas fixas e são fundamentais para o transporte público urbano, conectando diferentes partes da cidade.</p>
+                    <img src="root/images/imagem_onibus.jpg" alt="Imagem dos Ônibus">
+                </li>
+                <li>
+                    <h2>Igrejas</h2>
+                    <h3>Bispos</h3>
+                    <p>As igrejas são representadas pelos bispos, que se movem em diagonais no tabuleiro. Assim como os bispos conectam áreas distantes no xadrez, as igrejas atuam como pontos centrais de referência e influência cultural em bairros e regiões, simbolizando a interligação de espaços.</p>
+                    <img src="root/images/imagem_igrejas.jpg" alt="Imagem das Igrejas">
+                </li>
+            </ul>
+              
+         <!-- Ícones de navegação estilo "bolinha" -->
+            <div class="botoes-carrossel">
+                <button class="botao selecionado" ></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+            </div>
+
+        <!-- Box com CTA para o crowdfunding -->
+            <div class="crowdfunding">
+                <a href="#"><p>Apoie o projeto!</p></a>    
+            </div>
+        </section>
+
+    <!-- PÁGINA 03 -->
+        <!-- Sobre o projeto -->
+        <section id="contato" class="paginacontato">
+            <img src="#" alt="Imagem do projeto">
+            <h2>Sobre o projeto</h2>
+            <p>O projeto Xadrez Urbano visa conscientizar a população sobre a importância das normas de trânsito, utilizando o jogo de xadrez como metáfora. O objetivo é promover a segurança e a mobilidade urbana de forma lúdica e educativa. O projeto inclui o desenvolvimento de um jogo educativo e de um site interativo para apresentar a iniciativa e facilitar o financiamento coletivo. A proposta busca melhorar a qualidade de vida nas cidades, educando motoristas e pedestres sobre a importância do respeito às regras de trânsito.</p>
+            <h2>Contate-nos</h2>
+            <p>contato@xadrezurbano.com.br</p>
+
+         <!-- Box com CTA para o crowdfunding -->
+        <div class="crowdfunding">
+            <a href="#"><p>Apoie o projeto!</p></a>    
+        </div>
+
+        </section> 
+
 </body>
 
 <footer>
