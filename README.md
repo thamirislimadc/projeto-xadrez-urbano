@@ -10,4 +10,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 
 ## 💻 Implantação
-<b> Acesse o site clicando aqui: [www.xadrezurbano.com.br](https://thamirislimadc.github.io/projeto-xadrez-urbano/root/index.html)</b>
+<b> Acesse o site clicando aqui: [www.xadrezurbano.com.br](https://thamirislimadc.github.io/projeto-xadrez-urbano)</b>
