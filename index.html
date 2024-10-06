@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="root/js/script.js" defer></script>
-    <link rel="stylesheet" href="root/css/style.css">
+
+    <!-- Inserir favicon aqui -->
     <link rel="icon" href="root/images/Icon-Xadrez-Urbano.svg" type="image/x-icon">
+    
+    <!-- Inserir CSS aqui -->
+    <link rel="stylesheet" href="root/css/style.css">
+
+    <!-- Inserir JS aqui -->
+    <script src="root/js/script.js" defer></script>
+    <script scr="root/js/menuhamburguer.js" defer></script>
+
     <title>Xadrez Urbano</title>
 </head>
 
 <body>
     <header>
         <!-- Menu de navegação -->
-        <div id ="logo-icon"><a href="#inicial"><img src="root/images/Icon-Xadrez-Urbano.svg"></a></div>
+        <div id ="logo-icon"><a href="#inicial"><img src="root/images/Icon-Xadrez-Urbano.svg" alt="Xadrez Urbano"></a></div>
+        <a href="index.html" class="show-mobile"><img src="root/images/Icon-Xadrez-Urbano.svg" alt="Xadrez Urbano"></a>
+
         <nav id="nav-links">
             <ul>
                 <li><a href="#ojogo">O Jogo</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#" class="apoie">Apoie</a></li>
             </ul>
+            
+            <!-- Botão de navegação para dispositivos móveis 
+            <button id="hamburgerbtn" aria-label="Alterna navegação">&#9776;</button> -->
         </nav>
     </header>
     

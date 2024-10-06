@@ -1,0 +1,132 @@
+/* Estilos do menu */
+
+/* Estilos para telas de 1400px */
+@media (max-width: 1400px) {
+    header {
+        padding: 20px 10%;
+    }
+}
+
+/* Estilos para telas de 1200px */
+@media (max-width: 1200px) {
+    header {
+        padding: 20px 5%;
+    }
+}
+
+/* Estilos para telas de 768px */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 2%;
+    }
+
+    #nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nav-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nav-links li {
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para telas de 667px */
+@media (max-width: 667px) {
+    header {
+        padding: 10px 2%;
+    }
+
+    #logo-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #nav-links li a {
+        font-size: 1em;
+    }
+
+    .apoie {
+        padding: 5px 15px;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Estilo da página inicial */
+
+/* Estilos para telas de 1400px */
+@media (max-width: 1400px) {
+    main {
+        padding: 20px 15%;
+    }
+
+    #inicial img {
+        max-width: 600px;
+        height: auto;
+    }
+}
+
+/* Estilos para telas de 1200px */
+@media (max-width: 1200px) {
+    main {
+        padding: 20px 10%;
+    }
+
+    #inicial img {
+        max-width: 500px;
+        height: auto;
+    }
+}
+
+/* Estilos para telas de 768px */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 5%;
+    }
+
+    #inicial img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    #inicial p {
+        padding: 0 4%;
+    }
+
+    .botaotransparente {
+        padding: 20px 50px;
+        font-size: 1.2em;
+    }
+}
+
+/* Estilos para telas de 667px */
+@media (max-width: 667px) {
+    main {
+        padding: 10px 2%;
+    }
+
+    #inicial img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    #inicial h1 {
+        font-size: 1.4em;
+    }
+
+    #inicial p {
+        font-size: 1em;
+        padding: 0 2%;
+    }
+
+    .botaotransparente {
+        padding: 15px 40px;
+        font-size: 1em;
+    }
+}

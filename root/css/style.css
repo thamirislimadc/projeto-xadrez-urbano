@@ -86,6 +86,64 @@ header {
     color: var(--preto);
 }
 
+/* RESPONSIVIDADE */
+
+/* Estilos para telas de 1400px */
+@media (max-width: 1400px) {
+    header {
+        padding: 20px 10%;
+    }
+}
+
+/* Estilos para telas de 1200px */
+@media (max-width: 1200px) {
+    header {
+        padding: 20px 5%;
+    }
+}
+
+/* Estilos para telas de 768px */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 2%;
+    }
+
+    #nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nav-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nav-links li {
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para telas de 667px */
+@media (max-width: 667px) {
+    header {
+        padding: 10px 2%;
+    }
+
+    #logo-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #nav-links li a {
+        font-size: 1em;
+    }
+
+    .apoie {
+        padding: 5px 15px;
+    }
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* Estilo geral */
@@ -158,6 +216,81 @@ main {
     background-color: var(--amarelo);
 }
 
+/*  RESPONSIVIDADE */
+
+/* Estilos para telas de 1400px */
+@media (max-width: 1400px) {
+    main {
+        padding: 20px 15%;
+    }
+
+    #inicial img {
+        max-width: 600px;
+        height: auto;
+    }
+}
+
+/* Estilos para telas de 1200px */
+@media (max-width: 1200px) {
+    main {
+        padding: 20px 10%;
+    }
+
+    #inicial img {
+        max-width: 500px;
+        height: auto;
+    }
+}
+
+/* Estilos para telas de 768px */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 5%;
+    }
+
+    #inicial img {
+        max-width: 250px;
+        height: auto;
+    }
+
+    #inicial p {
+        padding: 0 7%;
+    }
+
+    .botaotransparente {
+        background-color: var(--amarelo);
+        padding: 20px 50px;
+        font-size: 1.2em;
+    }
+}
+
+/* Estilos para telas de 667px */
+@media (max-width: 667px) {
+    main {
+        padding: 10px 2%;
+    }
+
+    #inicial img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    #inicial h1 {
+        font-size: 1.2em;
+        padding: 0 7%;
+    }
+
+    #inicial p {
+        font-size: 16px;
+        padding: 0 7%;
+    }
+
+    .botaotransparente {
+        padding: 15px 40px;
+        font-size: 1em;
+    }
+}
+
 /*-----------------------------------------------------------------------------------*/
 /* Estilo página O JOGO*/
 
@@ -197,6 +330,82 @@ main {
     padding: 15px 30px;
 }
 
+/* Estilos para telas de 1400px */
+@media (max-width: 1400px) {
+    #ojogo {
+        margin: 80px 10% 30px 10%;
+        padding: 15px;
+    }
+
+    .blocopecas img {
+        width: 600px;
+    }
+
+    .descricaopecas h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Estilos para telas de 1200px */
+@media (max-width: 1200px) {
+    #ojogo {
+        margin: 60px 8% 30px 8%;
+        padding: 10%;
+    }
+
+    .blocopecas img {
+        width: 500px;
+    }
+
+    .descricaopecas h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Estilos para telas de 768px */
+@media (max-width: 768px) {
+    #ojogo {
+        margin: 40px 5% 30px 5%;
+        padding: 7%;
+    }
+
+    .blocopecas {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blocopecas img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .descricaopecas h2 {
+        font-size: 1.8rem;
+        padding: 5px 0;
+    }
+
+    .descricaopecas p {
+        padding: 15px 0;
+    }
+}
+
+/* Estilos para telas de 667px */
+@media (max-width: 667px) {
+    #ojogo {
+        margin: 20px 5% 30px 5%;
+        padding: 7%;
+    }
+
+    .descricaopecas h2 {
+        font-size: 1.5rem;
+    }
+
+    .descricaopecas p {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+}
+
 /*-----------------------------------------------------------------------------------*/
 /* Estilo dos botões do carrossel*/
 
@@ -224,7 +433,7 @@ main {
 }
 
 #sobre img {
-    max-width: 1335px;
+    width: 1330px;
     height: auto;
 }
 
@@ -263,7 +472,75 @@ main {
     background-color: var(--laranja);
 }
 
+/* Estilos para telas de 1400px */
+@media (max-width: 1400px) {
+    #sobre {
+        padding: 80px 15%;
+    }
 
+    #sobre img {
+        width: 1100px;
+    }
+
+    #sobre h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Estilos para telas de 1200px */
+@media (max-width: 1200px) {
+    #sobre {
+        padding: 60px 10%;
+    }
+
+    #sobre img {
+        width: 900px;
+    }
+
+    #sobre h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Estilos para telas de 768px */
+@media (max-width: 768px) {
+    #sobre {
+        padding: 40px 7%;
+    }
+
+    #sobre img {
+        width: 100%;
+    }
+
+    #sobre h2 {
+        font-size: 1.8rem;
+    }
+
+    .crowdfunding button {
+        padding: 15px 30px;
+        font-size: 1.2em;
+    }
+}
+
+/* Estilos para telas de 667px */
+@media (max-width: 667px) {
+    #sobre {
+        padding: 20px 7%;
+    }
+
+    #sobre h2 {
+        font-size: 1.5rem;
+    }
+
+    #sobre p {
+        font-size: 1rem;
+    }
+
+    .crowdfunding button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* Estilo rodapé*/
