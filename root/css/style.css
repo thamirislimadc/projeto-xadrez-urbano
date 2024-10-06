@@ -223,6 +223,48 @@ main {
     padding: 100px 15%;
 }
 
+#sobre img {
+    max-width: 1335px;
+    height: auto;
+}
+
+#sobre h2 {
+    font-size: 3rem;
+    padding: 25px 0px;
+}
+
+#sobre p {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.crowdfunding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.crowdfunding button {
+    background-color: var(--amarelo);
+    color: var(--preto);
+    padding: 20px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.crowdfunding button:hover {
+    background-color: var(--laranja);
+}
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /* Estilo rodapé*/
 
