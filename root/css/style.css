@@ -105,44 +105,52 @@ header {
 /* Estilos para telas de 768px */
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px 2%;
+        padding: 20px 7%;
     }
 
-    #nav-links {
-        flex-direction: column;
-        width: 100%;
+    #logo-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 7%;
     }
 
     #nav-links ul {
-        flex-direction: column;
-        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+
     }
 
     #nav-links li {
-        margin: 10px 0;
+        margin: 10px 7%;
     }
 }
 
 /* Estilos para telas de 667px */
 @media (max-width: 667px) {
     header {
-        padding: 10px 2%;
+        padding: 20px 5%; /* Ajuste o padding conforme necessário */
     }
 
     #logo-icon {
-        width: 25px;
-        height: 25px;
+        margin-left: 10px; /* Ajuste o espaçamento conforme necessário */
+    }
+
+    #nav-links ul {
+        justify-content: space-between; /* Distribui os itens igualmente */
+    }
+
+    #nav-links li {
+        margin: 0 10px; /* Ajuste o espaçamento entre os itens conforme necessário */
     }
 
     #nav-links li a {
-        font-size: 1em;
+        font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
     }
 
     .apoie {
-        padding: 5px 15px;
+        padding: 5px 10px; /* Ajuste o padding conforme necessário */
     }
+
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -267,7 +275,7 @@ main {
 /* Estilos para telas de 667px */
 @media (max-width: 667px) {
     main {
-        padding: 10px 2%;
+        padding: 50px 2%;
     }
 
     #inicial img {
@@ -392,7 +400,7 @@ main {
 /* Estilos para telas de 667px */
 @media (max-width: 667px) {
     #ojogo {
-        margin: 20px 5% 30px 5%;
+        margin: 50px 5% 30px 5%;
         padding: 7%;
     }
 
@@ -458,14 +466,17 @@ main {
 .crowdfunding button {
     background-color: var(--amarelo);
     color: var(--preto);
-    padding: 20px 40px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
+    padding: 30px 70px;
+    margin: 10px 0;
     cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s ease; /* transição suave ao passar o mouse */
+    border: none;
+    text-decoration: none; /* remove sublinhado do link */
+    color: var(--preto); 
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .crowdfunding button:hover {
@@ -516,6 +527,10 @@ main {
         font-size: 1.8rem;
     }
 
+    .crowdfunding {
+        margin: 10px 0;
+    }
+
     .crowdfunding button {
         padding: 15px 30px;
         font-size: 1.2em;
@@ -525,7 +540,8 @@ main {
 /* Estilos para telas de 667px */
 @media (max-width: 667px) {
     #sobre {
-        padding: 20px 7%;
+        padding: 50px 7%;
+        margin-top: 35px;
     }
 
     #sobre h2 {
@@ -534,6 +550,10 @@ main {
 
     #sobre p {
         font-size: 1rem;
+    }
+
+    .crowdfunding {
+        margin: 0;
     }
 
     .crowdfunding button {
